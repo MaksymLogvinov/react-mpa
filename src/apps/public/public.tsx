@@ -3,10 +3,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import { Provider } from 'react-redux';
-import { createStore } from 'redux';
 
-import rootReducer from '../../stores/public/store';
-const store = createStore(rootReducer);
+import store from 'stores/public/store';
 
 import Contact from 'components/Contact';
 
