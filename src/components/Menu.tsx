@@ -8,10 +8,10 @@ export default class Menu extends Component {
           <a href='/index.html'>Home</a>
         </li>
         <li>
-          <a href='/products/product-1.html'>Product</a>
+          <a href='/public/public.html'>PUBLIC</a>
         </li>
         <li>
-          <a href='/contact.html'>Contact</a>
+          <a href='/private/private.html'>PRIVATE</a>
         </li>
       </ul>
     );

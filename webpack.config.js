@@ -1,7 +1,7 @@
 
 const path = require('path');
 const getFilesFromDir = require('./config/files');
-const PAGE_DIR = path.join('src', 'pages', path.sep);
+const PAGE_DIR = path.join('src', 'apps', path.sep);
 
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 const htmlFiles = getFilesFromDir(PAGE_DIR, ['.html']);
